@@ -34,7 +34,13 @@ export default {
         //   message: 'Unable to fetch events at this time. Please try again',
         // })
         return {
-          events: [],
+          events: [
+            {
+              id: 1,
+              time: '12-2-2020', //
+              attendees: ['Rui Qiu'],
+            },
+          ],
         }
       })
   },
