@@ -1,0 +1,51 @@
+{
+  "name": "mynuxtapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "core-js": "^3.9.1",
+    "frontmatter-markdown-loader": "^3.6.2",
+    "highlight.js": "^9.18.5",
+    "html-loader": "^2.1.2",
+    "katex": "^0.13.3",
+    "markdown-it": "^8.4.2",
+    "markdown-it-texmath": "^0.8.0",
+    "markdownit-loader": "^2.0.0",
+    "nuxt": "^2.15.3",
+    "raw-loader": "^4.0.2",
+    "vue-markdown-loader": "^2.4.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "husky": "^4.3.8",
+    "json-server": "^0.16.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "push-dir": "^0.4.1"
+  }
+}
