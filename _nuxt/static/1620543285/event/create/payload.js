@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/event/create", {data:[{}],fetch:{},mutations:void 0});

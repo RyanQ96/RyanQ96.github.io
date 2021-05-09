@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{events:[{id:1,time:"12-2-2020",attendees:["Rui Qiu"]}]}],fetch:{},mutations:void 0});
