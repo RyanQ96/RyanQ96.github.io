@@ -6,6 +6,8 @@ npm run build
 
 cd dist
 
+git init 
+
 git add .
 
 git commit -am "updateing deploy"

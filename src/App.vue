@@ -12,6 +12,7 @@
 <script>
 import BlogPostComp from "@/components/BlogPostComp.vue";
 import NavBarComp from "./components/NavBarComp.vue";
+import 'katex/dist/katex.min.css'
 export default {
   name: 'App',
 
@@ -29,6 +30,6 @@ export default {
 <style>
 body {
   margin: 2em auto; 
-  @import "../node_modules/katex/dist/katex.min.css";
 }
+@import "../node_modules/katex/dist/katex.min.css";
 </style>
