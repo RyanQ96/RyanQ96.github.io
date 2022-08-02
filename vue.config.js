@@ -10,5 +10,6 @@ module.exports = defineConfig({
       .test(/\.html$/)
       .use('html-loader')
       .loader('html-loader')
-  }
+  }, 
+  publicPath: '/'
 })

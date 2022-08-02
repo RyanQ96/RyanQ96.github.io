@@ -29,5 +29,6 @@ export default {
 <style>
 body {
   margin: 2em auto; 
+  @import "../node_modules/katex/dist/katex.min.css";
 }
 </style>
