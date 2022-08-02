@@ -10,6 +10,6 @@ git add .
 
 git commit -am "updateing deploy"
 
-git push -f https://github.com/RyanQ96/RyanQ96.github.io.git master:gh-pages
+git push -f git@github.com:RyanQ96/RyanQ96.github.io.git master:gh-pages
 
 cd -
