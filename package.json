@@ -7,11 +7,21 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "deploy": "nuxt generate; gh-pages -d dist", 
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "html-loader": "^5.1.0",
+    "katex": "^0.16.11",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite-plugin-string": "^1.2.3",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.2"
   }
 }
