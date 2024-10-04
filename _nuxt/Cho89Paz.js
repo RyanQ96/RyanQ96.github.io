@@ -1,1 +1,0 @@
-import{_ as s,x as a,A as e,E as c,g as o,v as p}from"./KQZpIrR-.js";const _={};function l(t,d){const n=o("AppHeader"),r=o("AppFooter");return p(),a("div",null,[e(n),c(t.$slots,"default"),e(r)])}const m=s(_,[["render",l]]);export{m as default};

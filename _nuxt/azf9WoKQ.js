@@ -1,4 +1,4 @@
-import{d as s,v as a,x as n,D as t}from"./KQZpIrR-.js";const e=`<style>
+import{d as s,v as a,x as n,D as t}from"./XKb2xqwg.js";const e=`<style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
