@@ -8,8 +8,8 @@
             </v-toolbar-title>
           </router-link>
           &nbsp;
-          <v-avatar image="/Rui Official.jpg" size="60">
-          </v-avatar>
+          <UAvatar src="/Rui Official.jpg" size="xl">
+          </UAvatar>
 
           <v-spacer></v-spacer>
 
