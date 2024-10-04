@@ -8,7 +8,7 @@
             </v-toolbar-title>
           </router-link>
           &nbsp;
-          <v-avatar image="../assets/Rui Official.jpg" size="60">
+          <v-avatar image="/Rui Official.jpg" size="60">
           </v-avatar>
 
           <v-spacer></v-spacer>
