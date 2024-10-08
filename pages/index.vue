@@ -1,32 +1,34 @@
 <template>
-    <div id="intro">
-      <h1 class="title-head">👋 Welcome to Rui'Log</h1>
-      <br/>
-      <span class="intro-content">
-          Hi, this is Rui Qiu. I'm a Ph. D. student in Ohio State University. My research interests are broad range of Visual Analytics Science and Technologies (VAST). I'm documenting my learning notes and open source projects here in this blog. Besides, I'm a huge fan of VueJS, Vite and Observablehq.
-      </span>
-    </div>
-  </template>
-  
-  <script>
-  </script>
-  
-  <style scoped>
-  #intro{
-    max-width: 900px;
-    margin: 70px auto; 
-    margin-bottom: 20px;
-  }
-  
-  .intro-content{
-    font-size: 1.2em;
-    color: grey
-  }
+  <div>
+    <IntroComp/>
+    <PubComp/>
+    <BlogComp/>
+    <ProjectComp/>
+  </div>
+</template>
 
-  .title-head{
-    font-size: 2em;
-    color: black;
-    font-weight: 700;
-  }
+<script setup lang="ts">
+import IntroComp from '../components/IntroComp.vue';
+import PubComp from '../components/PubComp/index.vue';
+import BlogComp from "../components/BlogComp/index.vue"
+import ProjectComp from "../components/Projects/index.vue"
+</script>
   
-  </style>
+<style scoped>
+#intro {
+  max-width: 900px;
+  margin: 70px auto;
+  margin-bottom: 20px;
+}
+
+.intro-content {
+  font-size: 1.2em;
+  color: grey
+}
+
+.title-head {
+  font-size: 2em;
+  color: black;
+  font-weight: 700;
+}
+</style>

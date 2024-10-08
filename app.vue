@@ -10,6 +10,9 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  link: [{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=EB Garamond' }]
+})
 import NavBarComp from './components/NavBarComp.vue'
 useSeoMeta({
   title: "Rui Qiu's personal website",
@@ -21,7 +24,26 @@ useSeoMeta({
 
 <style>
 @import "./node_modules/katex/dist/katex.min.css";
+
+body {
+  font-family: "Open_Sans variant0", Tofu, sans-serif;
+}
+
 .main-container{
   padding-top: 100px!important;
+}
+
+
+.action-tip div {
+  transform: translate(0, -90%); 
+  color: grey!important; 
+  background-color: white!important; 
+}
+
+.section-title {
+  font-size: 2em;
+  color: #043361;
+  font-weight: 700;
+  font-family: 'EB Garamond'!important; 
 }
 </style>

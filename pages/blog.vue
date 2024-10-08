@@ -1,10 +1,11 @@
 <template>
-    <div id="content" v-html="Content">
-    </div>
+   <BlogComp/>
 </template>
 
 <script setup lang="ts">
-import Content from '@/public/assets/Blogs/first/fisher.html?raw';
+// import Content from '../public/assets/Blogs/first/fisher.html?raw';
+import BlogComp from "../components/BlogComp/index.vue"
+
 </script>
 
 <style>

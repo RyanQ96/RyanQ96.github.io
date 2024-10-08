@@ -8,7 +8,7 @@
             </v-toolbar-title>
           </router-link>
           &nbsp;
-          <UAvatar src="/Rui Official.jpg" size="xl">
+          <UAvatar src="/Rui Official.jpg" size="3xl" class="avatar-sf">
           </UAvatar>
 
           <v-spacer></v-spacer>
@@ -19,7 +19,7 @@
           <router-link to="/pub">
             <v-toolbar-title class="nav-title title-mini">Publication</v-toolbar-title>
           </router-link>
-          <router-link to="/portfolio">
+          <router-link to="/projects">
             <v-toolbar-title class="nav-title title-mini">Project</v-toolbar-title>
           </router-link>
           <router-link to="/cv">
@@ -38,15 +38,16 @@
 <style>
 .bar-container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  transform: translateY(50%);
+  
 }
 
 .app-bar .v-toolbar__content{
   overflow: visible;
+  height: 150px!important; 
 }
 
 
@@ -80,5 +81,9 @@ a {
 
 .router-link-exact-active {
   text-decoration: underline !important;
+}
+
+.avatar-sf {
+  transform: scaleX(0.95);
 }
 </style>

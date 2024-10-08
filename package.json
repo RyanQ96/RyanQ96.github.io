@@ -7,12 +7,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "npm install; nuxt generate; gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "@nuxt/ui": "^2.18.6",
+    "@rollup/plugin-yaml": "^4.1.2",
     "html-loader": "^5.1.0",
     "katex": "^0.16.11",
     "nuxt": "^3.13.0",
