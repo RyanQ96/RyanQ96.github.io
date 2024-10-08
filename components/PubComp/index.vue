@@ -12,6 +12,7 @@
                 :year="item.year"
                 :journal="item.journal"
                 :teaserURL="item.teaserURL"
+                :demoURL="item.demoURL"
                 >
             </paperComp>
         </div>

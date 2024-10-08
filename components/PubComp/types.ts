@@ -4,7 +4,8 @@ export interface Publication {
     year: string,
     paperURL: string,
     teaserURL: string,
-    githubURL: string,
+    githubURL?: string,
     journal: string,
+    demoURL?: string,
     [key: string]: any
 }

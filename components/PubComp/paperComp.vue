@@ -13,14 +13,40 @@
                     <div class="journal"> {{ props.journal }}</div>
                     <v-card-actions style="padding-top: 0">
                         <div v-if="props.githubURL">
-                            <a :href="props.githubURL"><v-btn class="ma-2" icon="mdi-github"
-                                    variant="text"></v-btn></a>
-                            <v-tooltip activator="parent" location="bottom" class="action-tip">code</v-tooltip>
+                            <UTooltip text="code">
+                                <a :href="props.githubURL">
+                                    <v-btn class="ma-2" variant="text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2" />
+                                        </svg>
+                                    </v-btn>
+                                </a>
+                            </UTooltip>
                         </div>
                         <div v-if="props.paperURL">
-                            <a :href="props.githubURL" v-if="props.paperURL"><v-btn class="ma-2" icon="mdi-file-outline"
-                                    variant="text"></v-btn></a>
-                            <v-tooltip activator="parent" location="bottom" class="action-tip">paper</v-tooltip>
+                            <UTooltip text="paper">
+                                <a :href="props.githubURL" v-if="props.paperURL"><v-btn class="ma-2" variant="text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M9 12.5h1v-2h1q.425 0 .713-.288T12 9.5v-1q0-.425-.288-.712T11 7.5H9zm1-3v-1h1v1zm3 3h2q.425 0 .713-.288T16 11.5v-3q0-.425-.288-.712T15 7.5h-2zm1-1v-3h1v3zm3 1h1v-2h1v-1h-1v-1h1v-1h-2zM8 18q-.825 0-1.412-.587T6 16V4q0-.825.588-1.412T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18zm-4 4q-.825 0-1.412-.587T2 20V6h2v14h14v2z" />
+                                        </svg>
+                                    </v-btn></a>
+                            </UTooltip>
+                        </div>
+                        <div v-if="props.demoURL">
+                            <UTooltip text="prototype">
+                                <a :href="props.demoURL" v-if="props.demoURL"><v-btn class="ma-2" variant="text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            viewBox="0 0 32 32">
+                                            <path fill="currentColor" d="M20 2v12l10-6z" />
+                                            <path fill="currentColor"
+                                                d="M28 14v8H4V6h10V4H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8v4H8v2h16v-2h-4v-4h8a2 2 0 0 0 2-2v-8zM18 28h-4v-4h4z" />
+                                        </svg>
+                                    </v-btn></a>
+                            </UTooltip>
                         </div>
                     </v-card-actions>
                 </div>
@@ -43,6 +69,7 @@ const props = defineProps(
             default: null,
         },
         journal: String,
+        demoURL: String,
     }
 )
 
@@ -77,7 +104,7 @@ const show = true;
 .teaser {
     box-shadow: 3px 3px 6px #888 !important;
     border-radius: 5% !important;
-    object-fit: cover!important;
+    object-fit: cover !important;
 }
 
 .author-myself {
