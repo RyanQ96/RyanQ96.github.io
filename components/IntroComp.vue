@@ -23,7 +23,7 @@
         </a>
         <a href="https://www.instagram.com/qiurui96/"><v-btn class="ma-2" color="red-lighten-2" icon="mdi-instagram" variant="text"></v-btn></a>
         <a href="https://github.com/RyanQ96"><v-btn class="ma-2" color="red-lighten-2" icon="mdi-github" variant="text"></v-btn></a>
-        <a href="www.linkedin.com/in/rui-qiu-231aa915b"><v-btn class="ma-2" color="red-lighten-2" icon="mdi-linkedin" variant="text"></v-btn></a>
+        <a href="https://www.linkedin.com/in/rui-qiu-231aa915b"><v-btn class="ma-2" color="red-lighten-2" icon="mdi-linkedin" variant="text"></v-btn></a>
       </div>
     </div>
   </div>
