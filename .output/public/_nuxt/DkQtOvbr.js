@@ -1,0 +1,1 @@
+import{P as e}from"./DB0-2neN.js";import{d as o,v as t,x as r,A as a,_ as c}from"./MRtCII0o.js";import"./Bhcz7uGs.js";import"./BDAopcn1.js";const s=o({__name:"projects",setup(p){return(_,n)=>(t(),r("div",null,[a(e)]))}}),l=c(s,[["__scopeId","data-v-5cfd7d4a"]]);export{l as default};
