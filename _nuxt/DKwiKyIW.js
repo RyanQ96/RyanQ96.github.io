@@ -1,1 +1,0 @@
-import{_ as a,g as e,x as s,A as o,aW as c,v as p}from"./BluC-mAM.js";const _={};function l(t,d){const n=e("AppHeader"),r=e("AppFooter");return p(),s("div",null,[o(n),c(t.$slots,"default"),o(r)])}const m=a(_,[["render",l]]);export{m as default};
