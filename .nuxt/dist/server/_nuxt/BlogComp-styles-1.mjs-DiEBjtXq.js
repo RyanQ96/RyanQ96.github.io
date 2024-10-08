@@ -1,0 +1,5 @@
+const BlogComp_vue_vue_type_style_index_0_scoped_6dca60cf_lang = ".pub-card[data-v-6dca60cf]{display:flex;justify-content:space-between;padding:20px}.pub-detail[data-v-6dca60cf]{align-items:center;box-sizing:border-box;display:flex;width:100%}.teaser[data-v-6dca60cf]{border-radius:5%!important;box-shadow:3px 3px 6px #888!important;-o-object-fit:cover!important;object-fit:cover!important}.author-myself[data-v-6dca60cf]{color:#000!important;font-weight:700}.title[data-v-6dca60cf]{color:purple;font-family:EB Garamond!important;font-size:1.7em;font-weight:700}.title[data-v-6dca60cf]:hover{text-decoration:underline!important}.authors[data-v-6dca60cf]{color:grey;display:inline-block;font-size:1em;font:Crimson Pro,serif;margin-top:10px}.journal[data-v-6dca60cf]{font-size:1em;font-style:italic}.limited-content[data-v-6dca60cf]{display:-webkit-box;margin-top:10px;-webkit-line-clamp:3;-webkit-box-orient:vertical;color:grey;line-height:1.6;overflow:hidden;text-align:left;text-overflow:ellipsis}";
+export {
+  BlogComp_vue_vue_type_style_index_0_scoped_6dca60cf_lang as default
+};
+//# sourceMappingURL=BlogComp-styles-1.mjs-DiEBjtXq.js.map
