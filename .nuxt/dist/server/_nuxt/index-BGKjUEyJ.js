@@ -1,0 +1,622 @@
+import { mergeProps, withCtx, openBlock, createBlock, createVNode, useSSRContext, toRef, shallowRef, ref, watch, computed, defineComponent } from "vue";
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderStyle } from "vue/server-renderer";
+import { _ as _export_sfc, R as __nuxt_component_0, p as propsFactory, I as IconValue, m as makeComponentProps, x as makeRoundedProps, O as makeElevationProps, l as genericComponent, z as useBackgroundColor, A as useRounded, Q as useElevation, t as useRender, M as VDefaultsProvider, N as makeDimensionProps, j as makeTagProps, P as useDimension, h as convertToUnit, S as only, k as makeThemeProps, o as provideTheme, w as useRtl, H as provideDefaults } from "../server.mjs";
+import { V as VBtn } from "./VBtn-DQkNBCQR.js";
+import { _ as _sfc_main$3 } from "./index-6o-8xUMn.js";
+import { _ as _sfc_main$4 } from "./index-BBoTsSd1.js";
+import { P as ProjectComp } from "./index-CmpqFEaR.js";
+import { m as makeSizeProps, u as useSize, a as VIcon, b as makeDensityProps, c as useDensity } from "./VCard-D8XDrysE.js";
+import "ofetch";
+import "#internal/nuxt/paths";
+import "hookable";
+import "unctx";
+import "h3";
+import "unhead";
+import "@unhead/shared";
+import "vue-router";
+import "radix3";
+import "defu";
+import "ufo";
+import "@vueuse/core";
+import "tailwind-merge";
+import "klona";
+import "@iconify/vue";
+import "@iconify/utils/lib/css/icon";
+const _sfc_main$2 = {
+  __name: "IntroComp",
+  __ssrInlineRender: true,
+  setup(__props) {
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_UAvatar = __nuxt_component_0;
+      _push(`<div${ssrRenderAttrs(mergeProps({ id: "intro" }, _attrs))} data-v-fe09b71c><h1 class="section-title" data-v-fe09b71c>👋 About Me</h1><br data-v-fe09b71c><span class="intro-content" data-v-fe09b71c> Nice to meet you! I’m Rui Qiu (邱瑞), currently a fourth-year Ph.D. student in the <a href="https://sites.google.com/view/gravity-research-group/people" class="highlight" data-v-fe09b71c>Gravity</a> research group at The Ohio State University, advised by Professor <a href="https://han-wei-shen.github.io/" class="highlight" data-v-fe09b71c>Han-Wei Shen</a>. My research interests lie in visual analytics, explainable AI (XAI), large language models (LLMs), and agent-based systems. <br data-v-fe09b71c><br data-v-fe09b71c> Beyond research, I’m the proud parent of two cats, Simba `);
+      _push(ssrRenderComponent(_component_UAvatar, {
+        src: "/simba.png",
+        size: "xl"
+      }, null, _parent));
+      _push(` and Bingo `);
+      _push(ssrRenderComponent(_component_UAvatar, {
+        src: "/bingo.png",
+        size: "xl"
+      }, null, _parent));
+      _push(`, and enjoy photography, badminton, and tennis. Feel free to reach out if you’d like to connect or discuss my work! </span><div data-v-fe09b71c><div style="${ssrRenderStyle({ "display": "flex", "justify-content": "space-between", "margin": "0 auto", "width": "50%" })}" data-v-fe09b71c><a href="mailto:qiu.580@osu.eud" data-v-fe09b71c>`);
+      _push(ssrRenderComponent(VBtn, {
+        class: "ma-2",
+        color: "red-lighten-2",
+        variant: "text"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<svg style="${ssrRenderStyle({ "height": "1.5rem", "transform": "translate(0, 20%)" })}" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" data-v-fe09b71c${_scopeId}><path fill="currentColor" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12v1.45q0 1.475-1.012 2.513T18.5 17q-.875 0-1.65-.375t-1.3-1.075q-.725.725-1.638 1.088T12 17q-2.075 0-3.537-1.463T7 12t1.463-3.537T12 7t3.538 1.463T17 12v1.45q0 .65.425 1.1T18.5 15t1.075-.45t.425-1.1V12q0-3.35-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20h5v2zm0-7q1.25 0 2.125-.875T15 12t-.875-2.125T12 9t-2.125.875T9 12t.875 2.125T12 15" data-v-fe09b71c${_scopeId}></path></svg>`);
+          } else {
+            return [
+              (openBlock(), createBlock("svg", {
+                style: { "height": "1.5rem", "transform": "translate(0, 20%)" },
+                xmlns: "http://www.w3.org/2000/svg",
+                width: "32",
+                height: "32",
+                viewBox: "0 0 24 24"
+              }, [
+                createVNode("path", {
+                  fill: "currentColor",
+                  d: "M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12v1.45q0 1.475-1.012 2.513T18.5 17q-.875 0-1.65-.375t-1.3-1.075q-.725.725-1.638 1.088T12 17q-2.075 0-3.537-1.463T7 12t1.463-3.537T12 7t3.538 1.463T17 12v1.45q0 .65.425 1.1T18.5 15t1.075-.45t.425-1.1V12q0-3.35-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20h5v2zm0-7q1.25 0 2.125-.875T15 12t-.875-2.125T12 9t-2.125.875T9 12t.875 2.125T12 15"
+                })
+              ]))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</a><a href="https://scholar.google.com/citations?user=yucgO7EAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener" aria-label="academicons/google-scholar" data-v-fe09b71c>`);
+      _push(ssrRenderComponent(VBtn, {
+        class: "ma-2",
+        color: "red-lighten-2",
+        variant: "text"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<svg style="${ssrRenderStyle({ "height": "1.5rem", "transform": "translate(0, 20%)" })}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-v-fe09b71c${_scopeId}><path fill="currentcolor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339.0 00-.219 6.225c0 20.845 7.22 38.087 21.672 51.861 14.453 13.797 32.252 20.648 53.327 20.648 4.923.0 9.75-.368 14.438-1.024-2.907 6.5-4.374 12.523-4.374 18.142.0 9.875 4.499 20.43 13.467 31.642-39.234 2.67-68.061 9.732-86.437 21.163-10.531 6.5-19 14.704-25.39 24.531-6.391 9.9-9.578 20.515-9.578 31.962.0 9.648 2.062 18.336 6.219 26.062 4.156 7.726 9.578 14.07 16.312 18.984 6.718 4.968 14.469 9.101 23.219 12.469 8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052.0 00180.555 448c13.469.0 26.953-1.734 40.547-5.187 13.562-3.485 26.28-8.642 38.171-15.493 11.86-6.805 21.515-16.086 28.922-27.718 7.39-11.68 11.094-24.805 11.094-39.336.0-11.016-2.25-21.039-6.75-30.14-4.468-9.073-9.938-16.542-16.452-22.345-6.501-5.813-13-11.155-19.516-15.968-6.5-4.845-12-9.75-16.468-14.813-4.485-5.046-6.735-10.054-6.735-14.984.0-4.921 1.734-9.672 5.216-14.265 3.455-4.61 7.674-9.048 12.61-13.306 4.937-4.25 9.875-8.968 14.796-14.133 4.922-5.147 9.141-11.827 12.61-20.008 3.485-8.18 5.203-17.445 5.203-27.757.0-13.453-2.547-24.46-7.547-33.314-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958.0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038 4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553.0 016.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734 1 2.477 2.016 5.461 3.047 8.946a38.27 38.27.0 011.485 10.562c0 17.048-6.564 29.68-19.656 37.859-13.125 8.18-28.767 12.274-46.938 12.274-9.187.0-18.203-1.093-27.063-3.196-8.843-2.116-17.311-5.336-25.39-9.601-8.078-4.258-14.577-10.204-19.5-17.797-4.938-7.64-7.407-16.415-7.407-26.25.0-10.32 2.797-19.29 8.422-26.906 5.594-7.625 12.938-13.391 22.032-17.315 9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865.0 0128.438-2.555c4.47.0 7.936.25 10.405.696.455.219 3.032 2.07 7.735 5.563 4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288-11.86.0-22.298-4.764-31.266-14.312-9-9.523-15.422-20.328-19.344-32.43-3.937-12.109-5.906-23.984-5.906-35.648.0-13.694 3.596-25.352 10.781-34.976 7.187-9.65 17.5-14.485 30.938-14.485 11.875.0 22.374 5.038 31.437 15.157 9.094 10.085 15.61 21.413 19.517 33.968 3.922 12.54 5.873 24.53 5.873 35.984.0 13.446-3.702 24.61-11.076 33.454z" data-v-fe09b71c${_scopeId}></path></svg>`);
+          } else {
+            return [
+              (openBlock(), createBlock("svg", {
+                style: { "height": "1.5rem", "transform": "translate(0, 20%)" },
+                xmlns: "http://www.w3.org/2000/svg",
+                viewBox: "0 0 512 512"
+              }, [
+                createVNode("path", {
+                  fill: "currentcolor",
+                  d: "M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339.0 00-.219 6.225c0 20.845 7.22 38.087 21.672 51.861 14.453 13.797 32.252 20.648 53.327 20.648 4.923.0 9.75-.368 14.438-1.024-2.907 6.5-4.374 12.523-4.374 18.142.0 9.875 4.499 20.43 13.467 31.642-39.234 2.67-68.061 9.732-86.437 21.163-10.531 6.5-19 14.704-25.39 24.531-6.391 9.9-9.578 20.515-9.578 31.962.0 9.648 2.062 18.336 6.219 26.062 4.156 7.726 9.578 14.07 16.312 18.984 6.718 4.968 14.469 9.101 23.219 12.469 8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052.0 00180.555 448c13.469.0 26.953-1.734 40.547-5.187 13.562-3.485 26.28-8.642 38.171-15.493 11.86-6.805 21.515-16.086 28.922-27.718 7.39-11.68 11.094-24.805 11.094-39.336.0-11.016-2.25-21.039-6.75-30.14-4.468-9.073-9.938-16.542-16.452-22.345-6.501-5.813-13-11.155-19.516-15.968-6.5-4.845-12-9.75-16.468-14.813-4.485-5.046-6.735-10.054-6.735-14.984.0-4.921 1.734-9.672 5.216-14.265 3.455-4.61 7.674-9.048 12.61-13.306 4.937-4.25 9.875-8.968 14.796-14.133 4.922-5.147 9.141-11.827 12.61-20.008 3.485-8.18 5.203-17.445 5.203-27.757.0-13.453-2.547-24.46-7.547-33.314-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958.0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038 4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553.0 016.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734 1 2.477 2.016 5.461 3.047 8.946a38.27 38.27.0 011.485 10.562c0 17.048-6.564 29.68-19.656 37.859-13.125 8.18-28.767 12.274-46.938 12.274-9.187.0-18.203-1.093-27.063-3.196-8.843-2.116-17.311-5.336-25.39-9.601-8.078-4.258-14.577-10.204-19.5-17.797-4.938-7.64-7.407-16.415-7.407-26.25.0-10.32 2.797-19.29 8.422-26.906 5.594-7.625 12.938-13.391 22.032-17.315 9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865.0 0128.438-2.555c4.47.0 7.936.25 10.405.696.455.219 3.032 2.07 7.735 5.563 4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288-11.86.0-22.298-4.764-31.266-14.312-9-9.523-15.422-20.328-19.344-32.43-3.937-12.109-5.906-23.984-5.906-35.648.0-13.694 3.596-25.352 10.781-34.976 7.187-9.65 17.5-14.485 30.938-14.485 11.875.0 22.374 5.038 31.437 15.157 9.094 10.085 15.61 21.413 19.517 33.968 3.922 12.54 5.873 24.53 5.873 35.984.0 13.446-3.702 24.61-11.076 33.454z"
+                })
+              ]))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</a><a href="https://www.instagram.com/qiurui96/" data-v-fe09b71c>`);
+      _push(ssrRenderComponent(VBtn, {
+        class: "ma-2",
+        color: "red-lighten-2",
+        variant: "text"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<svg style="${ssrRenderStyle({ "height": "1.5rem", "transform": "translate(0, 20%)" })}" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" data-v-fe09b71c${_scopeId}><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" data-v-fe09b71c${_scopeId}></path></svg>`);
+          } else {
+            return [
+              (openBlock(), createBlock("svg", {
+                style: { "height": "1.5rem", "transform": "translate(0, 20%)" },
+                xmlns: "http://www.w3.org/2000/svg",
+                width: "32",
+                height: "32",
+                viewBox: "0 0 24 24"
+              }, [
+                createVNode("path", {
+                  fill: "currentColor",
+                  d: "M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+                })
+              ]))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</a><a href="https://github.com/RyanQ96" data-v-fe09b71c>`);
+      _push(ssrRenderComponent(VBtn, {
+        class: "ma-2",
+        color: "red-lighten-2",
+        variant: "text"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<svg style="${ssrRenderStyle({ "height": "1.5rem", "transform": "translate(0, 20%)" })}" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" data-v-fe09b71c${_scopeId}><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" data-v-fe09b71c${_scopeId}></path></svg>`);
+          } else {
+            return [
+              (openBlock(), createBlock("svg", {
+                style: { "height": "1.5rem", "transform": "translate(0, 20%)" },
+                xmlns: "http://www.w3.org/2000/svg",
+                width: "32",
+                height: "32",
+                viewBox: "0 0 24 24"
+              }, [
+                createVNode("path", {
+                  fill: "currentColor",
+                  d: "M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+                })
+              ]))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</a><a href="https://www.linkedin.com/in/rui-qiu-231aa915b" data-v-fe09b71c>`);
+      _push(ssrRenderComponent(VBtn, {
+        class: "ma-2",
+        color: "red-lighten-2",
+        variant: "text"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<svg style="${ssrRenderStyle({ "height": "1.5rem", "transform": "translate(0, 20%)" })}" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" data-v-fe09b71c${_scopeId}><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z" data-v-fe09b71c${_scopeId}></path></svg>`);
+          } else {
+            return [
+              (openBlock(), createBlock("svg", {
+                style: { "height": "1.5rem", "transform": "translate(0, 20%)" },
+                xmlns: "http://www.w3.org/2000/svg",
+                width: "32",
+                height: "32",
+                viewBox: "0 0 24 24"
+              }, [
+                createVNode("path", {
+                  fill: "currentColor",
+                  d: "M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"
+                })
+              ]))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</a></div></div></div>`);
+    };
+  }
+};
+const _sfc_setup$2 = _sfc_main$2.setup;
+_sfc_main$2.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/IntroComp.vue");
+  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
+};
+const IntroComp = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-fe09b71c"]]);
+const makeVTimelineDividerProps = propsFactory({
+  dotColor: String,
+  fillDot: Boolean,
+  hideDot: Boolean,
+  icon: IconValue,
+  iconColor: String,
+  lineColor: String,
+  ...makeComponentProps(),
+  ...makeRoundedProps(),
+  ...makeSizeProps(),
+  ...makeElevationProps()
+}, "VTimelineDivider");
+const VTimelineDivider = genericComponent()({
+  name: "VTimelineDivider",
+  props: makeVTimelineDividerProps(),
+  setup(props, _ref) {
+    let {
+      slots
+    } = _ref;
+    const {
+      sizeClasses,
+      sizeStyles
+    } = useSize(props, "v-timeline-divider__dot");
+    const {
+      backgroundColorStyles,
+      backgroundColorClasses
+    } = useBackgroundColor(toRef(props, "dotColor"));
+    const {
+      roundedClasses
+    } = useRounded(props, "v-timeline-divider__dot");
+    const {
+      elevationClasses
+    } = useElevation(props);
+    const {
+      backgroundColorClasses: lineColorClasses,
+      backgroundColorStyles: lineColorStyles
+    } = useBackgroundColor(toRef(props, "lineColor"));
+    useRender(() => createVNode("div", {
+      "class": ["v-timeline-divider", {
+        "v-timeline-divider--fill-dot": props.fillDot
+      }, props.class],
+      "style": props.style
+    }, [createVNode("div", {
+      "class": ["v-timeline-divider__before", lineColorClasses.value],
+      "style": lineColorStyles.value
+    }, null), !props.hideDot && createVNode("div", {
+      "key": "dot",
+      "class": ["v-timeline-divider__dot", elevationClasses.value, roundedClasses.value, sizeClasses.value],
+      "style": sizeStyles.value
+    }, [createVNode("div", {
+      "class": ["v-timeline-divider__inner-dot", backgroundColorClasses.value, roundedClasses.value],
+      "style": backgroundColorStyles.value
+    }, [!slots.default ? createVNode(VIcon, {
+      "key": "icon",
+      "color": props.iconColor,
+      "icon": props.icon,
+      "size": props.size
+    }, null) : createVNode(VDefaultsProvider, {
+      "key": "icon-defaults",
+      "disabled": !props.icon,
+      "defaults": {
+        VIcon: {
+          color: props.iconColor,
+          icon: props.icon,
+          size: props.size
+        }
+      }
+    }, slots.default)])]), createVNode("div", {
+      "class": ["v-timeline-divider__after", lineColorClasses.value],
+      "style": lineColorStyles.value
+    }, null)]));
+    return {};
+  }
+});
+const makeVTimelineItemProps = propsFactory({
+  density: String,
+  dotColor: String,
+  fillDot: Boolean,
+  hideDot: Boolean,
+  hideOpposite: {
+    type: Boolean,
+    default: void 0
+  },
+  icon: IconValue,
+  iconColor: String,
+  lineInset: [Number, String],
+  ...makeComponentProps(),
+  ...makeDimensionProps(),
+  ...makeElevationProps(),
+  ...makeRoundedProps(),
+  ...makeSizeProps(),
+  ...makeTagProps()
+}, "VTimelineItem");
+const VTimelineItem = genericComponent()({
+  name: "VTimelineItem",
+  props: makeVTimelineItemProps(),
+  setup(props, _ref) {
+    let {
+      slots
+    } = _ref;
+    const {
+      dimensionStyles
+    } = useDimension(props);
+    const dotSize = shallowRef(0);
+    const dotRef = ref();
+    watch(dotRef, (newValue) => {
+      var _a;
+      if (!newValue) return;
+      dotSize.value = ((_a = newValue.$el.querySelector(".v-timeline-divider__dot")) == null ? void 0 : _a.getBoundingClientRect().width) ?? 0;
+    }, {
+      flush: "post"
+    });
+    useRender(() => {
+      var _a, _b;
+      return createVNode("div", {
+        "class": ["v-timeline-item", {
+          "v-timeline-item--fill-dot": props.fillDot
+        }, props.class],
+        "style": [{
+          "--v-timeline-dot-size": convertToUnit(dotSize.value),
+          "--v-timeline-line-inset": props.lineInset ? `calc(var(--v-timeline-dot-size) / 2 + ${convertToUnit(props.lineInset)})` : convertToUnit(0)
+        }, props.style]
+      }, [createVNode("div", {
+        "class": "v-timeline-item__body",
+        "style": dimensionStyles.value
+      }, [(_a = slots.default) == null ? void 0 : _a.call(slots)]), createVNode(VTimelineDivider, {
+        "ref": dotRef,
+        "hideDot": props.hideDot,
+        "icon": props.icon,
+        "iconColor": props.iconColor,
+        "size": props.size,
+        "elevation": props.elevation,
+        "dotColor": props.dotColor,
+        "fillDot": props.fillDot,
+        "rounded": props.rounded
+      }, {
+        default: slots.icon
+      }), props.density !== "compact" && createVNode("div", {
+        "class": "v-timeline-item__opposite"
+      }, [!props.hideOpposite && ((_b = slots.opposite) == null ? void 0 : _b.call(slots))])]);
+    });
+    return {};
+  }
+});
+const makeVTimelineProps = propsFactory({
+  align: {
+    type: String,
+    default: "center",
+    validator: (v) => ["center", "start"].includes(v)
+  },
+  direction: {
+    type: String,
+    default: "vertical",
+    validator: (v) => ["vertical", "horizontal"].includes(v)
+  },
+  justify: {
+    type: String,
+    default: "auto",
+    validator: (v) => ["auto", "center"].includes(v)
+  },
+  side: {
+    type: String,
+    validator: (v) => v == null || ["start", "end"].includes(v)
+  },
+  lineThickness: {
+    type: [String, Number],
+    default: 2
+  },
+  lineColor: String,
+  truncateLine: {
+    type: String,
+    validator: (v) => ["start", "end", "both"].includes(v)
+  },
+  ...only(makeVTimelineItemProps({
+    lineInset: 0
+  }), ["dotColor", "fillDot", "hideOpposite", "iconColor", "lineInset", "size"]),
+  ...makeComponentProps(),
+  ...makeDensityProps(),
+  ...makeTagProps(),
+  ...makeThemeProps()
+}, "VTimeline");
+const VTimeline = genericComponent()({
+  name: "VTimeline",
+  props: makeVTimelineProps(),
+  setup(props, _ref) {
+    let {
+      slots
+    } = _ref;
+    const {
+      themeClasses
+    } = provideTheme(props);
+    const {
+      densityClasses
+    } = useDensity(props);
+    const {
+      rtlClasses
+    } = useRtl();
+    provideDefaults({
+      VTimelineDivider: {
+        lineColor: toRef(props, "lineColor")
+      },
+      VTimelineItem: {
+        density: toRef(props, "density"),
+        dotColor: toRef(props, "dotColor"),
+        fillDot: toRef(props, "fillDot"),
+        hideOpposite: toRef(props, "hideOpposite"),
+        iconColor: toRef(props, "iconColor"),
+        lineColor: toRef(props, "lineColor"),
+        lineInset: toRef(props, "lineInset"),
+        size: toRef(props, "size")
+      }
+    });
+    const sideClasses = computed(() => {
+      const side = props.side ? props.side : props.density !== "default" ? "end" : null;
+      return side && `v-timeline--side-${side}`;
+    });
+    const truncateClasses = computed(() => {
+      const classes = ["v-timeline--truncate-line-start", "v-timeline--truncate-line-end"];
+      switch (props.truncateLine) {
+        case "both":
+          return classes;
+        case "start":
+          return classes[0];
+        case "end":
+          return classes[1];
+        default:
+          return null;
+      }
+    });
+    useRender(() => createVNode(props.tag, {
+      "class": ["v-timeline", `v-timeline--${props.direction}`, `v-timeline--align-${props.align}`, `v-timeline--justify-${props.justify}`, truncateClasses.value, {
+        "v-timeline--inset-line": !!props.lineInset
+      }, themeClasses.value, densityClasses.value, sideClasses.value, rtlClasses.value, props.class],
+      "style": [{
+        "--v-timeline-line-thickness": convertToUnit(props.lineThickness)
+      }, props.style]
+    }, slots));
+    return {};
+  }
+});
+const _sfc_main$1 = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "container" }, _attrs))} data-v-53fd9856><h1 class="section-title" data-v-53fd9856>News</h1><div class="pub-list" data-v-53fd9856>`);
+  _push(ssrRenderComponent(VTimeline, {
+    align: "start",
+    side: "end"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(ssrRenderComponent(VTimelineItem, {
+          "dot-color": "pink",
+          size: "small"
+        }, {
+          default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="d-flex" data-v-53fd9856${_scopeId2}><strong class="me-4" data-v-53fd9856${_scopeId2}>5pm</strong><div data-v-53fd9856${_scopeId2}><strong data-v-53fd9856${_scopeId2}>New Icon</strong><div class="text-caption" data-v-53fd9856${_scopeId2}> Mobile App </div></div></div>`);
+            } else {
+              return [
+                createVNode("div", { class: "d-flex" }, [
+                  createVNode("strong", { class: "me-4" }, "5pm"),
+                  createVNode("div", null, [
+                    createVNode("strong", null, "New Icon"),
+                    createVNode("div", { class: "text-caption" }, " Mobile App ")
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+        _push2(ssrRenderComponent(VTimelineItem, {
+          "dot-color": "teal-lighten-3",
+          size: "small"
+        }, {
+          default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="d-flex" data-v-53fd9856${_scopeId2}><strong class="me-4" data-v-53fd9856${_scopeId2}>3-4pm</strong><div data-v-53fd9856${_scopeId2}><strong data-v-53fd9856${_scopeId2}>Design Stand Up</strong><div class="text-caption mb-2" data-v-53fd9856${_scopeId2}> Hangouts </div></div></div>`);
+            } else {
+              return [
+                createVNode("div", { class: "d-flex" }, [
+                  createVNode("strong", { class: "me-4" }, "3-4pm"),
+                  createVNode("div", null, [
+                    createVNode("strong", null, "Design Stand Up"),
+                    createVNode("div", { class: "text-caption mb-2" }, " Hangouts ")
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+        _push2(ssrRenderComponent(VTimelineItem, {
+          "dot-color": "pink",
+          size: "small"
+        }, {
+          default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="d-flex" data-v-53fd9856${_scopeId2}><strong class="me-4" data-v-53fd9856${_scopeId2}>12pm</strong><div data-v-53fd9856${_scopeId2}><strong data-v-53fd9856${_scopeId2}>Lunch break</strong></div></div>`);
+            } else {
+              return [
+                createVNode("div", { class: "d-flex" }, [
+                  createVNode("strong", { class: "me-4" }, "12pm"),
+                  createVNode("div", null, [
+                    createVNode("strong", null, "Lunch break")
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+        _push2(ssrRenderComponent(VTimelineItem, {
+          "dot-color": "teal-lighten-3",
+          size: "small"
+        }, {
+          default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="d-flex" data-v-53fd9856${_scopeId2}><strong class="me-4" data-v-53fd9856${_scopeId2}>9-11am</strong><div data-v-53fd9856${_scopeId2}><strong data-v-53fd9856${_scopeId2}>Finish Home Screen</strong><div class="text-caption" data-v-53fd9856${_scopeId2}> Web App </div></div></div>`);
+            } else {
+              return [
+                createVNode("div", { class: "d-flex" }, [
+                  createVNode("strong", { class: "me-4" }, "9-11am"),
+                  createVNode("div", null, [
+                    createVNode("strong", null, "Finish Home Screen"),
+                    createVNode("div", { class: "text-caption" }, " Web App ")
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+      } else {
+        return [
+          createVNode(VTimelineItem, {
+            "dot-color": "pink",
+            size: "small"
+          }, {
+            default: withCtx(() => [
+              createVNode("div", { class: "d-flex" }, [
+                createVNode("strong", { class: "me-4" }, "5pm"),
+                createVNode("div", null, [
+                  createVNode("strong", null, "New Icon"),
+                  createVNode("div", { class: "text-caption" }, " Mobile App ")
+                ])
+              ])
+            ]),
+            _: 1
+          }),
+          createVNode(VTimelineItem, {
+            "dot-color": "teal-lighten-3",
+            size: "small"
+          }, {
+            default: withCtx(() => [
+              createVNode("div", { class: "d-flex" }, [
+                createVNode("strong", { class: "me-4" }, "3-4pm"),
+                createVNode("div", null, [
+                  createVNode("strong", null, "Design Stand Up"),
+                  createVNode("div", { class: "text-caption mb-2" }, " Hangouts ")
+                ])
+              ])
+            ]),
+            _: 1
+          }),
+          createVNode(VTimelineItem, {
+            "dot-color": "pink",
+            size: "small"
+          }, {
+            default: withCtx(() => [
+              createVNode("div", { class: "d-flex" }, [
+                createVNode("strong", { class: "me-4" }, "12pm"),
+                createVNode("div", null, [
+                  createVNode("strong", null, "Lunch break")
+                ])
+              ])
+            ]),
+            _: 1
+          }),
+          createVNode(VTimelineItem, {
+            "dot-color": "teal-lighten-3",
+            size: "small"
+          }, {
+            default: withCtx(() => [
+              createVNode("div", { class: "d-flex" }, [
+                createVNode("strong", { class: "me-4" }, "9-11am"),
+                createVNode("div", null, [
+                  createVNode("strong", null, "Finish Home Screen"),
+                  createVNode("div", { class: "text-caption" }, " Web App ")
+                ])
+              ])
+            ]),
+            _: 1
+          })
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</div></div>`);
+}
+const _sfc_setup$1 = _sfc_main$1.setup;
+_sfc_main$1.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/timelineComp/index.vue");
+  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+};
+const TimelineComp = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-53fd9856"]]);
+const _sfc_main = /* @__PURE__ */ defineComponent({
+  __name: "index",
+  __ssrInlineRender: true,
+  setup(__props) {
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<div${ssrRenderAttrs(_attrs)} data-v-c9cd3391>`);
+      _push(ssrRenderComponent(IntroComp, null, null, _parent));
+      _push(ssrRenderComponent(TimelineComp, null, null, _parent));
+      _push(ssrRenderComponent(_sfc_main$3, null, null, _parent));
+      _push(ssrRenderComponent(_sfc_main$4, null, null, _parent));
+      _push(ssrRenderComponent(ProjectComp, null, null, _parent));
+      _push(`</div>`);
+    };
+  }
+});
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-c9cd3391"]]);
+export {
+  index as default
+};
+//# sourceMappingURL=index-BGKjUEyJ.js.map
