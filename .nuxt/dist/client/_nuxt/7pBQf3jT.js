@@ -1,1 +1,0 @@
-import{_ as a,g as e,x as s,A as o,ad as c,v as p}from"./Cau3kFXa.js";const _={};function d(t,l){const n=e("AppHeader"),r=e("AppFooter");return p(),s("div",null,[o(n),c(t.$slots,"default"),o(r)])}const m=a(_,[["render",d]]);export{m as default};
