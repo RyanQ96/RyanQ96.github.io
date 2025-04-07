@@ -1,1 +1,0 @@
-import{_ as s,g as e,x as a,A as o,W as c,v as p}from"./Bd_HCCA2.js";const _={};function l(t,d){const n=e("AppHeader"),r=e("AppFooter");return p(),a("div",null,[o(n),c(t.$slots,"default"),o(r)])}const m=s(_,[["render",l]]);export{m as default};
