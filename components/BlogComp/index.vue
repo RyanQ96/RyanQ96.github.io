@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 import type {BlogPost} from "./types"
-import BlogComp from "./BlogComp.vue"
+import BlogComp from "./Blog.vue"
 import BlogData from '../../public/assets/Blogs/index.json'
 
 const blogData = BlogData as BlogPost[];

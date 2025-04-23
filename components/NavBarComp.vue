@@ -23,9 +23,9 @@
             <router-link to="/projects">
               <v-toolbar-title class="nav-title title-mini">Project</v-toolbar-title>
             </router-link>
-            <router-link to="/Rui_Qiu_CV_latest.pdf">
+            <a href="/Rui_Qiu_CV_latest.pdf" target="_blank" rel="noopener noreferrer">
               <v-toolbar-title class="nav-title title-mini">CV</v-toolbar-title>
-            </router-link>
+            </a>
           </div>
         </div>
       </v-app-bar>

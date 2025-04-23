@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     //...
   ],
+  css: ['~/assets/css/main.css'],
   vite: {
     vue: {
       template: {

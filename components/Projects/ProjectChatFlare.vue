@@ -20,7 +20,7 @@
                 ChatFlare aims to provide a streamlined and modular approach to working with LLM chains.
             </v-card-text>
 
-            <v-space></v-space>
+            <v-spacer></v-spacer>
             <v-card-subtitle>
                 <span style="font-size: 1rem; ">May 10, 2024</span>
             </v-card-subtitle>

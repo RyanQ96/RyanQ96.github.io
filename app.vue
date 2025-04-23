@@ -30,23 +30,23 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.main-container{
-  padding-top: 100px!important;
-  padding-left: 20px!important;
-  padding-right: 20px!important;
+.main-container {
+  padding-top: 100px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 
 .action-tip div {
-  transform: translate(0, -90%); 
-  color: grey!important; 
-  background-color: white!important; 
+  transform: translate(0, -90%);
+  color: grey !important;
+  background-color: white !important;
 }
 
 .section-title {
   font-size: 2em;
   color: #043361;
   font-weight: 700;
-  font-family: 'EB Garamond'!important; 
+  font-family: 'EB Garamond' !important;
 }
 </style>
