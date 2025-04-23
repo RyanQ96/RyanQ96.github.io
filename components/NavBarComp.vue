@@ -4,27 +4,29 @@
       <v-app-bar :elevation="0" class="app-bar">
         <div class="bar-container">
           <router-link to="/">
-            <v-toolbar-title class="nav-title">Rui Qiu
-            </v-toolbar-title>
+            <div class="name-avatar-container">
+              <UAvatar src="/Rui Official.jpg" size="3xl" class="avatar-sf">
+              </UAvatar>
+              <v-toolbar-title class="nav-title">Rui (Ray) Qiu</v-toolbar-title>
+            </div>
           </router-link>
           &nbsp;
-          <UAvatar src="/Rui Official.jpg" size="3xl" class="avatar-sf">
-          </UAvatar>
 
           <v-spacer></v-spacer>
-
-          <router-link to="/blog">
-            <v-toolbar-title class="nav-title title-mini">Blog</v-toolbar-title>
-          </router-link>
-          <router-link to="/pub">
-            <v-toolbar-title class="nav-title title-mini">Publication</v-toolbar-title>
-          </router-link>
-          <router-link to="/projects">
-            <v-toolbar-title class="nav-title title-mini">Project</v-toolbar-title>
-          </router-link>
-          <router-link to="/Rui_Qiu_CV_latest.pdf">
-            <v-toolbar-title class="nav-title title-mini">CV</v-toolbar-title>
-          </router-link>
+          <div class="nav-links">
+            <router-link to="/pub">
+              <v-toolbar-title class="nav-title title-mini">Publication</v-toolbar-title>
+            </router-link>
+            <router-link to="/blog">
+              <v-toolbar-title class="nav-title title-mini">Blog</v-toolbar-title>
+            </router-link>
+            <router-link to="/projects">
+              <v-toolbar-title class="nav-title title-mini">Project</v-toolbar-title>
+            </router-link>
+            <router-link to="/Rui_Qiu_CV_latest.pdf">
+              <v-toolbar-title class="nav-title title-mini">CV</v-toolbar-title>
+            </router-link>
+          </div>
         </div>
       </v-app-bar>
     </div>
@@ -42,14 +44,48 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+
+.name-avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 530px) {
+  .nav-links {
+    display: none;
+  }
   
+  .bar-container {
+    justify-content: center;
+  }
+  
+  .v-spacer {
+    display: none;
+  }
+
+  .name-avatar-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-title {
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 .app-bar .v-toolbar__content{
   overflow: visible;
   height: 150px!important; 
+  padding-left: 20px; 
+  padding-right: 20px;
 }
-
 
 .nav-title {
   font-size: 1.5em !important;

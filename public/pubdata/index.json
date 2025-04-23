@@ -7,7 +7,11 @@
     "teaserURL": "/pubdata/imgs/vadis-cover.png",
     "githubURL": "https://github.com/RyanQ96/VADIS?tab=readme-ov-file",
     "paperURL": "https://ieeexplore-ieee-org.proxy.lib.ohio-state.edu/document/10677360",
-    "journal": "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2024"
+    "journal": "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2024", 
+    "award": {
+        "name": "IEEE VIS'24 Best Paper Award",
+        "url": "https://ieeevis.org/year/2024/program/paper_v-full-1802.html"
+    }
 },
 {
     "title": "KG-PRE-view: Democratizing a TVCG Knowledge Graph through Visual Explorations",

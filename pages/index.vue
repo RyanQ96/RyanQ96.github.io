@@ -1,6 +1,7 @@
 <template>
   <div>
     <IntroComp/>
+    <NewsComp/>
     <PubComp/>
     <BlogComp/>
     <ProjectComp/>
@@ -9,6 +10,7 @@
 
 <script setup lang="ts">
 import IntroComp from '../components/IntroComp.vue';
+import NewsComp from '../components/NewsComp/index.vue';
 import PubComp from '../components/PubComp/index.vue';
 import BlogComp from "../components/BlogComp/index.vue"
 import ProjectComp from "../components/Projects/index.vue"

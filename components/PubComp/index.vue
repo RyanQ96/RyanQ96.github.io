@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="section-title">Publications</h1>
+        <h1 class="section-title" style="margin-left: 50px">Publications</h1>
         <div class="pub-list">
             <paperComp 
                 v-for="item in pubData"  
@@ -13,6 +13,7 @@
                 :journal="item.journal"
                 :teaserURL="item.teaserURL"
                 :demoURL="item.demoURL"
+                :award="item.award"
                 >
             </paperComp>
         </div>

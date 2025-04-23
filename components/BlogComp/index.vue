@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="section-title">Blogs</h1>
+        <h1 class="section-title" style="margin-left: 50px">Blogs</h1>
         <div class="blog-list">
             <BlogComp 
                 v-for="item in blogData"  

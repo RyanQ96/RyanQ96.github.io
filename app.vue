@@ -26,11 +26,14 @@ useSeoMeta({
 @import "./node_modules/katex/dist/katex.min.css";
 
 body {
-  font-family: "Open_Sans variant0", Tofu, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .main-container{
   padding-top: 100px!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
 }
 
 

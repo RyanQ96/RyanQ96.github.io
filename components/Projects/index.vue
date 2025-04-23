@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="project-container">
-            <h1 class="section-title">Open-Source Projects</h1>
+            <h1 class="section-title" style="margin-left: 50px">Open-Source Projects</h1>
             <v-row style="margin-top: 20px">
                 <ProjectChatFlare></ProjectChatFlare>
             </v-row>
