@@ -11,7 +11,7 @@
       <!-- <p>My research focuses on the intersection of <b>human-centered design</b> and <b>Large Language Models (LLMs)</b>. I build interactive frameworks that let human <u>see what multi-agent LLM pipelines are doing</u>, <u>steer them in real time</u>, and <u>audit every conclusion back to its evidence</u> to make advanced AI transparent, trustworthy, and truly useful at scale.</p> -->
       <p>
         My research focuses on the intersection of <b>human-centered design</b> and
-        <b>Large Language Models (LLMs)</b>. I build interactive visual-analytics frameworks that let experts
+        <b>Large Language Models (LLMs)</b>. I build interactive visual-analytics frameworks that enable human to
         <u>see what multi-agent LLM pipelines are doing</u>,
         <u>steer them in real time</u>, and
         <u>audit every conclusion back to its evidence</u>, making advanced AI transparent,
@@ -77,7 +77,7 @@
 const catsize = 80;
 </script>
 
-<style scoped>
+<style>
 #intro {
   max-width: 800px !important;
   margin: 70px auto;

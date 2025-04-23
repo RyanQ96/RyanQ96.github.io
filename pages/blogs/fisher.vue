@@ -4,7 +4,7 @@
 </template>
 
 <script setup lang="ts">
-import content from '../public/assets/Blogs/first/fisher.html?raw';
+import content from '../../public/Blogs/first/fisher.html?raw';
 import { useRoute } from "nuxt/app";
 
 

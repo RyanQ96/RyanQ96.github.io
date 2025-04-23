@@ -99,6 +99,6 @@ const show = true;
     
     text-align:left; 
     line-height: 1.6; 
-    color: grey;
+    color: black;
 }
 </style>

@@ -51,8 +51,7 @@
                         <div v-if="props.demoURL" style="display: inline-block" class="paper-action-btn">
                             <UTooltip text="prototype" :popper="{ offsetDistance: -5}">
                                 <a :href="props.demoURL" v-if="props.demoURL">
-                                    <v-btn class="ma-2" variant="text" @mouseover="showPrototypeAction"
-                                        @mouseleave="hidePrototypeAction">
+                                    <v-btn class="ma-2" variant="text">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                                             viewBox="0 0 32 32">
                                             <path fill="currentColor" d="M20 2v12l10-6z" />
