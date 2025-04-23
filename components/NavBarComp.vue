@@ -22,7 +22,7 @@
           <router-link to="/projects">
             <v-toolbar-title class="nav-title title-mini">Project</v-toolbar-title>
           </router-link>
-          <router-link to="/cv">
+          <router-link to="/Rui_Qiu_CV_latest.pdf">
             <v-toolbar-title class="nav-title title-mini">CV</v-toolbar-title>
           </router-link>
         </div>

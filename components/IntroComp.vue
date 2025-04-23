@@ -3,7 +3,7 @@
     <h1 class="section-title">👋 About Me</h1>
     <br />
     <span class="intro-content">
-      Nice to meet you! I’m Rui Qiu (邱瑞), currently a fourth-year Ph.D. student in the <a
+      I’m Rui Qiu (邱瑞), currently a fourth-year Ph.D. student in the <a
         href="https://sites.google.com/view/gravity-research-group/people" class="highlight">Gravity</a> research group
       at The Ohio State
       University, advised by Professor <a href="https://han-wei-shen.github.io/" class="highlight">Han-Wei Shen</a>. My
