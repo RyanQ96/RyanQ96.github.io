@@ -1,10 +1,10 @@
 [
     {
         "time": "Oct 10, 2024",
-        "content": "<b>VADIS</b> received the Best Paper Award at IEEE VIS 2024! 🏆"
+        "content": "<a class='highlight' href='https://arxiv.org/abs/2504.05697'>VADIS</a> received the <a class='highlight' href='https://ieeevis.org/year/2024/program/paper_v-full-1802.html'><i>Best Paper Award</i></a> at IEEE VIS 2024🏆!"
     },
     {
         "time": "Aug 10, 2024",
-        "content": "Our paper <b>VADIS: Visual Analytics for Dynamic Iterative Information Seeking</b> is accepted by IEEE VIS 2024."
+        "content": "Our paper <a class='highlight' href='https://arxiv.org/abs/2504.05697'>VADIS: Visual Analytics for Dynamic Iterative Information Seeking</a> is accepted by IEEE VIS 2024."
     }
 ]

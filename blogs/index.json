@@ -1,0 +1,11 @@
+[
+    {
+        "id": "fisher", 
+        "title": "Fisher Information and its Application in AI", 
+        "date": "2022-07-01",
+        "authors": "Rui Qiu", 
+        "tags": ["Fisher Information", "AI", "Machine Learning", "Statistics"], 
+        "importLink": "../public/Blogs/first/fisher.html?raw", 
+        "abstract": "This blog introduces Fisher Information and its role in model training and transfer learning. It explains how Fisher Information measures the sensitivity of a model’s likelihood to changes in its parameters, helping improve the robustness of estimates in generative modeling. The post highlights its relationship to the Hessian matrix, showing that Fisher Information can replace the Hessian in optimization tasks like ADAM, improving efficiency. Additionally, it previews how Fisher Information relates to KL-divergence and can be used to address challenges like catastrophic forgetting in transfer learning by limiting parameter updates in distribution space rather than Euclidean space."
+    }
+]
