@@ -1,5 +1,9 @@
 [
     {
+        "time": "April 10, 2025",
+        "content": "Our paper on <a class='highlight' href='https://www.climatechange.ai/events/iclr2025'>XAI for climate model</a> is accepted by ICLR 2025 Workshop: Tackling Climate Change with Machine Learning."
+    },
+    {
         "time": "Oct 10, 2024",
         "content": "<a class='highlight' href='https://arxiv.org/abs/2504.05697'>VADIS</a> received the <a class='highlight' href='https://ieeevis.org/year/2024/program/paper_v-full-1802.html'><i>Best Paper Award</i></a> at IEEE VIS 2024🏆!"
     },
