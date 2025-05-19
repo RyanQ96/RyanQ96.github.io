@@ -1,4 +1,4 @@
-import{d as s,v as a,I as n,x as t}from"./CUCOstux.js";const e=`<style>
+import{d as s,v as a,I as n,x as t}from"./DvlaRFds.js";const e=`<style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {

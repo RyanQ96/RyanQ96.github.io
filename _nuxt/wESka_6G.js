@@ -1,1 +1,0 @@
-import{_ as t}from"./BBIbLUic.js";import{_ as c,D as r,x as s}from"./CUCOstux.js";import"./B9O1kl9Y.js";import"./BhdaVBvV.js";const _={};function a(e,p,n,m,f,i){const o=t;return s(),r(o)}const l=c(_,[["render",a],["__scopeId","data-v-da2c9f17"]]);export{l as default};
